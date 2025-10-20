@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+html {
+	font-family: "Noto Sans", system-ui;
+	background-color: lightslategray;
+}
+
+.container {
+	background-color: #ececec;
+	padding: 1rem;
+	/* width: 100%; */
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	/* margin-top: 2em; */
+	/* box-shadow: lightgray 0.8em 0.8em; */
+}
+
+.bio {
+	margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Archivo Black", "Arial Black", system-ui;
+}
+
+h1,
+h2 {
+	/* padding-bottom: 1em; */
+	background-color: #ffffff;
+	box-shadow: blue 0.5rem 0.5rem;
+	margin-bottom: 1em;
+}
+
+h1:before,
+h2:before {
+	content: "> ";
+}
+
+p {
+	margin-bottom: 1em;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+@media only screen and (min-width: 992px) {
+	.container {
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 1em;
+		box-shadow: lightgray 0.8em 0.8em;
+	}
+}
